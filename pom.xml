@@ -139,12 +139,20 @@
             </plugin>
             
             
-            
+           <!-- PLUGIN changelog pour connaitre l'activite de son projet  -->
+             <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-changelog-plugin</artifactId> 
+            </plugin> 
    
  </plugins>
 </reporting>
 
-
+<!-- SECTION SCM  -->
+<scm>
+        <connection>scm:git:git://IPSERVEUR/repository1/monappli</connection>
+        <url>http://IPSERVEUR/git/monappli-web</url>
+    </scm>
 
 
 
