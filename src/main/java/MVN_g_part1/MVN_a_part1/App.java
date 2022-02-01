@@ -2,7 +2,7 @@ package MVN_g_part1.MVN_a_part1;
 
 /*
  * Hello world!
- *
+ *SALUT A TOUS
  */
 public class App {	//ERREUR CORRIGée, espace entre parenthèse et string
     public static void main(String[] args) {
